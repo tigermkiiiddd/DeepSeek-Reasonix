@@ -1,0 +1,28 @@
+{
+  "editMode": "yolo",
+  "projects": {
+    "G:\\\\projects": {
+      "pathAllowed": ["G:\\\\projects"],
+      "shellAllowed": ["git ", "npm ", "node ", "npx ", "python ", "pip ", "pnpm ", "yarn ", "cargo ", "rustc ", "go ", "deno ", "bun ", "tsc ", "vite ", "eslint ", "prettier ", "make ", "cmake ", "docker ", "kubectl ", "terraform ", "winget ", "code ", "cursor ", "dir", "ls", "cd", "cat", "type", "echo", "mkdir", "rm", "cp", "mv", "find", "grep", "wc", "head", "tail", "diff", "curl", "wget"]
+    }
+  },
+  "lang": "zh-CN",
+  "apiKey": "sk-4eb07de560164ed68e884d81059c051",
+  "preset": "auto",
+  "theme": "default",
+  "mcp": [
+    "filesystem=npx -y @modelcontextprotocol/server-filesystem /projects",
+    "memory=npx -y @modelcontextprotocol/server-memory",
+    "github=npx -y @modelcontextprotocol/server-github",
+    "puppeteer=npx -y @modelcontextprotocol/server-puppeteer",
+    "everything=npx -y @modelcontextprotocol/server-everything"
+  ],
+  "mcpEnv": {
+    "github": {
+      "GITHUB_PERSONAL_ACCESS_TOKEN": "你的_ghp_token"
+    }
+  },
+  "setupCompleted": true,
+  "mouseClipboardHintShown": true,
+  "search": true
+}
